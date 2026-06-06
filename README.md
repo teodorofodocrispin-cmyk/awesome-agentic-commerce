@@ -657,6 +657,16 @@ Cloudflare's Agents SDK embeds payment rails directly into the edge infrastructu
 
 ---
 
+
+## Privacy & Compliance
+
+As agentic commerce scales, agent payloads increasingly carry PII — names, emails, national IDs, financial data. A sanitization layer before payments or LLM calls is becoming mandatory infrastructure.
+
+### PII Sanitization
+
+- [TrustBoost PII Sanitizer](https://github.com/teodorofodocrispin-cmyk/TrustBoost-PII-Sanitizer) — Open-source, x402-native PII sanitization for agentic pipelines. Sanitizes text before it reaches LLMs or external APIs. Proof of Sanitization anchored on Solana via Helius. 8 languages including LATAM (RFC, CUIT, CPF). EU AI Act compliant. Try free: `tx_hash=TRIAL`. Live: https://api.trustboost.dev
+
+
 ## License
 
 This compilation is provided under the [MIT License](./LICENSE).
